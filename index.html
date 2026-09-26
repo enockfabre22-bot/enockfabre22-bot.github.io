@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Video Animation Studio - Creator Publishing Dashboard</title>
+  <title>Football Video Studio | Video Animation Studio</title>
   <style>
     body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 0; }
     header { background: #1e293b; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; }
@@ -29,7 +29,7 @@
 </head>
 <body>
   <header>
-    <div class="brand">🎬 Video Animation Studio</div>
+    <div class="brand">🎬 Football Video Studio — Video Animation Studio</div>
     <nav>
       <a href="index.html">Dashboard</a>
       <a href="terms.html">Terms of Service</a>
@@ -38,10 +38,9 @@
   </header>
 
   <div class="container">
-    <h1>TikTok Direct Post Publisher</h1>
-    <p style="color:#94a3b8; font-size:14px;">Create custom 2D/3D animations, data visualizations, and physics simulations, and publish rendered videos directly to your connected TikTok account using TikTok Login Kit & Content Posting API.</p>
+    <h1>TikTok Direct Post Publisher (Football Video Studio)</h1>
+    <p style="color:#94a3b8; font-size:14px;">Create custom 2D/3D animations, sports & physics simulations, and publish rendered videos directly to your connected TikTok account using TikTok Login Kit & Content Posting API.</p>
 
-    <!-- STEP 1: LOGIN KIT -->
     <div class="step-box">
       <h3 style="margin-top:0;">1. TikTok Account Authentication (Login Kit)</h3>
       <button class="btn-tiktok" id="loginBtn" onclick="connectTikTok()">Continue with TikTok</button>
@@ -50,7 +49,6 @@
       </div>
     </div>
 
-    <!-- STEP 2: CONTENT POSTING API -->
     <div class="step-box" id="publishSection" style="opacity:0.5; pointer-events:none;">
       <h3 style="margin-top:0;">2. Video & Post Configuration (Content Posting API)</h3>
 
@@ -59,7 +57,7 @@
       <div id="filePreview" style="font-size:13px; color:#38bdf8; margin-top:6px;"></div>
 
       <label>Post Title & Hashtags</label>
-      <input type="text" id="postTitle" value="2D Physics Simulation #animation #simulation #satisfying #creativecoding" />
+      <input type="text" id="postTitle" value="2D Physics & Football Simulation #animation #simulation #football" />
 
       <label>Who can view this video (Privacy Level) *</label>
       <select id="privacyLevel" onchange="checkForm()">
@@ -89,7 +87,7 @@
   </div>
 
   <footer>
-    © 2026 Video Animation Studio · <a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a>
+    © 2026 Football Video Studio (Video Animation Studio) · <a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a>
   </footer>
 
   <script>
