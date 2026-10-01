@@ -70,7 +70,7 @@
     <!-- STEP 1: LOGIN KIT -->
     <div class="step-box">
       <h3 style="margin-top:0;">1. Account Authentication</h3>
-      <a href="https://www.tiktok.com/v2/auth/authorize/?client_key=TON_CLIENT_KEY_ICI&response_type=code&scope=user.info.basic,video.publish,video.upload&redirect_uri=https://enockfabre22-bot.github.io/callback&state=12345" class="btn-tiktok" style="display:inline-block; text-decoration:none; text-align:center;">Continue with TikTok</a>
+      <button class="btn-tiktok" id="loginBtn" onclick="connectTikTok()">Continue with TikTok</button>
       <div class="badge-connected" id="connectedBadge">
         ✅ Authenticated via TikTok OAuth 2.0 — Connected Account Ready
       </div>
